@@ -1,4 +1,4 @@
-# GarlicPhone
+# Garlic Phone
 Garlic Phone is a Gartic Phone plugg-in.
 It removes Ads and adds customizability to the Game.
 
