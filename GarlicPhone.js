@@ -7,7 +7,9 @@ I will comment on every little detail telling you what it is so even if you're n
 function garinit(){
 document.querySelectorAll('[role="button"]')[0].id = "glplogo";
 document.getElementByID("glplogo").innerHTML = "GARLIC PHONE";
-document.getElementsByTagName('style')[0].innerHTML += "#glplogo{text-align: center; color = white; font-family: 'Nunito'; font-size: 22px;}";
+var style = document.createElement('style');
+  style.innerHTML += "#glplogo{text-align: center; color = white; font-family: 'Nunito'; font-size: 22px;}";
+  document.body.append(style);
 //Deleting Gartic Phone title and replacing it with Garlic Phone.
 setInterval(()=>{
   for(i=0;i<document.getElementsByTagName("iframe").length;i++)
