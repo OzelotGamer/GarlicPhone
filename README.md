@@ -18,4 +18,4 @@ javascript:(function(){var s=document.createElement('script');s.src='https://cdn
 ```
 
 Play Gartic Phone here:
-[Gartic Phone]https://garticphone.com/
+[Gartic Phone](https://garticphone.com/)
