@@ -13,4 +13,6 @@ First create a Bookmark.
 Edit the bookmark and set the name to: Garlic Phone
 (or basically anything you can remember)
 Then set the URL to the following:
-ok
+```javascript
+javascript:(()=>{var s = document.createElement("script"); s.src = "https://raw.githubusercontent.com/OzelotGamer/GarlicPhone/main/Garlic Phone.js"; document.body.append(s); s.onload = ()=>{alert("Garlic Phone")}})();
+```
