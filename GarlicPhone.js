@@ -5,7 +5,9 @@ Im a beginner and this is just a little test Project.
 I will comment on every little detail telling you what it is so even if you're not a programmer you can understand it.
 */
 function garinit(){
-document.querySelectorAll('[role="button"]')[0].innerHTML = "Garlic Phone"; //Deleting Gartic Phone title and replacing it with Garlic Phone.
+document.querySelectorAll('[role="button"]')[0].innerHTML = "Garlic Phone";
+document.querySelectorAll('[role="button"]')[0].style = "text-align: center; color = white; font-family: 'Nunito'; font-size: 22px;";
+//Deleting Gartic Phone title and replacing it with Garlic Phone.
 setInterval(()=>{
   for(i=0;i<document.getElementsByTagName("iframe").length;i++)
   {
