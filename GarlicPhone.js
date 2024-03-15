@@ -10,10 +10,11 @@ document.querySelectorAll('[role="button"]')[0].id = "glplogo";
 document.getElementById("glplogo").innerHTML = "GARLIC<br>PHONE";
 var shadow = document.createElement("div");
 shadow.id = "glplogoshadow";
-shadow.innerHTML = "GARLIC<br>PHONE";
+shadow.innerHTML = "<div id='glplogomain'>GARLIC<br>PHONE</div>";
 document.getElementById("glplogo").append(shadow);
 var styles = document.createElement("style");
-styles.innerHTML = "#glplogo{color: #ffffff}";
+styles.innerHTML = "#glplogo{} #glplogomain{} #glplogoshadow{}";
+document.getElementById("glplogo").append(styles);
 
 setInterval(()=>{
 for(i=0;i<document.getElementsByTagName("iframe").length;i++)
