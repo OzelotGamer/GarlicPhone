@@ -11,7 +11,9 @@ document.getElementById("glplogo").innerHTML = "GARLIC<br>PHONE";
 var shadow = document.createElement("div");
 shadow.id = "glplogoshadow";
 shadow.innerHTML = "GARLIC<br>PHONE";
-document.getElementById().append(shadow);
+document.getElementById("glplogo").append(shadow);
+var styles = document.createElement("style");
+styles.innerHTML = "#glplogo{color: #ffffff}";
 
 setInterval(()=>{
 for(i=0;i<document.getElementsByTagName("iframe").length;i++)
