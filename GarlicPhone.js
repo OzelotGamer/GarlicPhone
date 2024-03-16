@@ -13,7 +13,7 @@ shadow.id = "glplogoshadow";
 shadow.innerHTML = "<div id='glplogomain'>GARLIC<br>PHONE</div>";
 document.getElementById("glplogo").append(shadow);
 var styles = document.createElement("style");
-styles.innerHTML = "#glplogo{} #glplogomain{} #glplogoshadow{}";
+styles.innerHTML = "#glplogo{} #glplogomain{color: white; font-size: 25px; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%)} #glplogoshadow{color: white; font-size: 25px; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%)}";
 document.getElementById("glplogo").append(styles);
 
 setInterval(()=>{
