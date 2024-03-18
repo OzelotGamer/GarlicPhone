@@ -6,6 +6,7 @@ It removes Ads and adds customizability to the Game.
 
 I'm bad at programming so if its bad: I KNOW!
 
+As of now it is just an Ad Blocker.
 There Currently isn't much because i just started, but soon more will come.
 
 ## How to add to Gartic Phone
