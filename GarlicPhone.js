@@ -8,12 +8,12 @@ garinit();
 function garinit(){
 document.querySelectorAll('[role="button"]')[0].id = "glplogo";
 document.getElementById("glplogo").innerHTML = "";
-var main = document.createElement("div");
-main.innerHTML = "GARLIC<br>PHONE";
+var main = document.createElement("img");
+main.src = "https://cdn.jsdelivr.net/gh/OzelotGamer/GarlicPhone@4d2a1631b29fe1733f37ad04e38487ed7192e5df/GarlicPhoneTitle.png";
 main.id = "glplogomain";
 document.getElementById("glplogo").append(main);
 var styles = document.createElement("style");
-styles.innerHTML = "#glplogo{} #glplogomain{z-index: 5; color: #777799; font-size: 27px; position: absolute; top: 10%; left: 50%; transform: translate(-50%, -10%); font-weight: 300; color: #30024f; text-shadow: 3px 3px 0 #ffffff, 3px -3px 0 #ffffff, -3px 3px 0 #ffffff, -3px -3px 0 #ffffff, 3px 0px 0 #ffffff, 0px 3px 0 #ffffff, -3px 0px 0 #ffffff, 0px -3px 0 #ffffff;}";
+styles.innerHTML = "#glplogo{width: 100%; height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);} #glplogomain{width: 240px; height: 240px; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%);}";
 document.getElementById("glplogo").append(styles);
 
 setInterval(()=>{
