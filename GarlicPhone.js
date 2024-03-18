@@ -20,6 +20,7 @@ setInterval(()=>{
 for(i=0;i<document.getElementsByTagName("iframe").length;i++)
   {
   document.getElementsByTagName("iframe")[i].remove();
+document.getElementsByTagName("video")[i].remove();
   }
  }, 100);
 }
