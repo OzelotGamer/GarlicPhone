@@ -5,6 +5,9 @@ Im a beginner and this is just a little test Project.
 */
 garinit();
 function garinit(){
+document.getElementsByClassName("avatar")[0].querySelector("button").onclick = ()=>{
+  showCharacters();
+};
 document.querySelectorAll('[role="button"]')[0].id = "glplogo";
 document.getElementById("glplogo").innerHTML = "";
 document.getElementById("glplogo").removeAttribute("style");
@@ -25,7 +28,6 @@ document.getElementsByTagName("video")[i].remove();
  }, 100);
 }
 
-showCharacters();
 function showCharacters(){
 if(document.getElementById("CharContainer"))
 document.getElementById("CharContainer"). remove();
