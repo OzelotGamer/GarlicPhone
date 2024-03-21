@@ -1,15 +1,16 @@
 # Garlic Phone
-## Infos
+## Infos:
 Garlic Phone is a Gartic Phone plugg-in.
 It removes Ads and adds customizability to the Game.
 
-
 I'm bad at programming so if its bad: I KNOW!
 
-As of now it is just an Ad Blocker.
 There Currently isn't much because i just started, but soon more will come.
+### What Garlic Phone can do at the moment:
+Garlic Phone blocks all ads on Gartic Phone so you can play your game in peace. Also you can now exactly choose your Character instead of endlessly cycling through them till you find one.
+I know this isn't much but more will come soon.
 
-## How to add to Gartic Phone
+## How to add to Gartic Phone:
 Tutorial on how to add this to your game:
 
 First create a Bookmark.
