@@ -33,9 +33,10 @@ if(document.getElementById("CharContainer"))
 document.getElementById("CharContainer"). remove();
 var container = document.createElement("div");
 container.id = "CharContainer";
+container.innerHTML = "Choose a Character";
 document.body.append(container);
 var contstyles = document.createElement("style");
-contstyles.innerHTML = "#CharContainer{width: 75%; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 50; background-color: #882222; border: 5px solid #441111; border-radius: 15px;}";
+contstyles.innerHTML = "#CharContainer{width: 75%; height: auto; text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 50; background-color: #882222; border: 5px solid #441111; border-radius: 15px;}";
 document.getElementById("CharContainer").append(contstyles);
 for(i=0;i<=45;i++){
 document.getElementById("CharContainer").innerHTML += '<img src="https://garticphone.com/images/avatar/' + i + '.svg" style="width: 50px; height: 50px;" onclick="localStorage.setItem(\'avatar\', \'' + i + '\'); hideCharacters(); document.getElementsByClassName(\'avatar\')[0].querySelector(\'span\').style.backgroundImage = \'url(\\\'/images/avatar/' + i + '.svg\\\')\';"></img>'
