@@ -18,7 +18,7 @@ Edit the bookmark and set the name to: Garlic Phone
 (or basically anything you can remember)
 Then set the URL to the following:
 ```javascript
-javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/OzelotGamer/GarlicPhone@472bd6095781adeb4486174d521ef3090e9a285c/GarlicPhone.js';document.body.appendChild(s); s.onload = function(){garinit();}})();
+javascript:(function(){var s=document.createElement('script');s.src='https://github.com/OzelotGamer/GarlicPhone/blob/5baa1cc7331bff1a7f3c06fe1cd0330f1efd1b24/GarlicPhone.js';document.body.appendChild(s); s.onload = function(){garinit();}})();
 ```
 
 ## Play Gartic Phone here:
