@@ -2,7 +2,6 @@
 Hi this is the Code of Garlic Phone.
 Feel free to suggest changes.
 Im a beginner and this is just a little test Project.
-I will comment on every little detail telling you what it is so even if you're not a programmer you can understand it.
 */
 garinit();
 function garinit(){
@@ -25,8 +24,6 @@ document.getElementsByTagName("video")[i].remove();
   }
  }, 100);
 }
-/*
-experimental charakter chooser
 
 showCharacters();
 function showCharacters(){
@@ -46,4 +43,3 @@ document.getElementById("CharContainer").innerHTML += '<img src="https://garticp
 function hideCharacters(){
 document.getElementById("CharContainer").remove();
 }
-*/
