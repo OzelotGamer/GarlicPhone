@@ -3,7 +3,14 @@ Hi this is the Code of Garlic Phone.
 Feel free to suggest changes.
 Im a beginner and this is just a little test Project.
 */
-document.body.onload = function(){garinit();};
+var Inter = setInterval(()=>{
+  garinit();
+for(i=0;i<document.getElementsByTagName("iframe").length;i++)
+  {
+  document.getElementsByTagName("iframe")[i].remove();
+document.getElementsByTagName("video")[i].remove();
+  }
+ }, 100);
 function garinit(){
 document.getElementsByClassName("avatar")[0].querySelector("button").onclick = ()=>{
   showCharacters();
@@ -18,14 +25,6 @@ document.getElementById("glplogo").append(main);
 var styles = document.createElement("style");
 styles.innerHTML = "#glplogo{width: 75%; height: 10%; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%);} #glplogomain{width: 240px; height: 240px; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%);}";
 document.body.append(styles);
-
-var Inter = setInterval(()=>{
-for(i=0;i<document.getElementsByTagName("iframe").length;i++)
-  {
-  document.getElementsByTagName("iframe")[i].remove();
-document.getElementsByTagName("video")[i].remove();
-  }
- }, 100);
 }
 
 function showCharacters(){
