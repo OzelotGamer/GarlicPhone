@@ -3,7 +3,7 @@ Hi this is the Code of Garlic Phone.
 Feel free to suggest changes.
 Im a beginner and this is just a little test Project.
 */
-garinit();
+document.body.onload = function(){garinit();};
 function garinit(){
 document.getElementsByClassName("avatar")[0].querySelector("button").onclick = ()=>{
   showCharacters();
@@ -16,7 +16,7 @@ main.src = "https://cdn.jsdelivr.net/gh/OzelotGamer/GarlicPhone@4d2a1631b29fe173
 main.id = "glplogomain";
 document.getElementById("glplogo").append(main);
 var styles = document.createElement("style");
-styles.innerHTML = "#glplogo{width: 100%; height: 10%; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%);} #glplogomain{width: 240px; height: 240px; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%);}";
+styles.innerHTML = "#glplogo{width: 75%; height: 10%; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%);} #glplogomain{width: 240px; height: 240px; position: absolute; top: 0%; left: 50%; transform: translate(-50%, 0%);}";
 document.body.append(styles);
 
 setInterval(()=>{
@@ -33,10 +33,10 @@ if(document.getElementById("CharContainer"))
 document.getElementById("CharContainer"). remove();
 var container = document.createElement("div");
 container.id = "CharContainer";
-container.innerHTML = "Choose a Character";
+container.innerHTML = "<p>Choose a Character</p>";
 document.body.append(container);
 var contstyles = document.createElement("style");
-contstyles.innerHTML = "#CharContainer{width: 75%; height: auto; text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 50; background-color: #882222; border: 5px solid #441111; border-radius: 15px;}";
+contstyles.innerHTML = "#CharContainer{width: 75%; height: auto; text-align: center; font-size: 25px; color: white;position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 50; background-color: #882222; border: 5px solid #441111; border-radius: 15px;}";
 document.getElementById("CharContainer").append(contstyles);
 for(i=0;i<=45;i++){
 document.getElementById("CharContainer").innerHTML += '<img src="https://garticphone.com/images/avatar/' + i + '.svg" style="width: 50px; height: 50px;" onclick="localStorage.setItem(\'avatar\', \'' + i + '\'); hideCharacters(); document.getElementsByClassName(\'avatar\')[0].querySelector(\'span\').style.backgroundImage = \'url(\\\'/images/avatar/' + i + '.svg\\\')\';"></img>'
